@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	networking "k8s.io/api/networking/v1"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/k8s"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/k8s"
 )
 
 const (

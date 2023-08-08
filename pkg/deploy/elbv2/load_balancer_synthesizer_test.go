@@ -7,8 +7,8 @@ import (
 	elbv2sdk "github.com/aws/aws-sdk-go/service/elbv2"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
-	coremodel "sigs.k8s.io/aws-load-balancer-controller/pkg/model/core"
-	elbv2model "sigs.k8s.io/aws-load-balancer-controller/pkg/model/elbv2"
+	coremodel "github.com/sonal-chauhan/aws-load-balancer-controller/pkg/model/core"
+	elbv2model "github.com/sonal-chauhan/aws-load-balancer-controller/pkg/model/elbv2"
 )
 
 func Test_matchResAndSDKLoadBalancers(t *testing.T) {

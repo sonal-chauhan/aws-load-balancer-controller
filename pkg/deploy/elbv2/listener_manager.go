@@ -11,12 +11,12 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/pkg/errors"
 	"k8s.io/apimachinery/pkg/util/sets"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/aws/services"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/config"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/deploy/tracking"
-	elbv2equality "sigs.k8s.io/aws-load-balancer-controller/pkg/equality/elbv2"
-	elbv2model "sigs.k8s.io/aws-load-balancer-controller/pkg/model/elbv2"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/runtime"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/aws/services"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/config"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/deploy/tracking"
+	elbv2equality "github.com/sonal-chauhan/aws-load-balancer-controller/pkg/equality/elbv2"
+	elbv2model "github.com/sonal-chauhan/aws-load-balancer-controller/pkg/model/elbv2"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/runtime"
 )
 
 // ListenerManager is responsible for create/update/delete Listener resources.

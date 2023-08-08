@@ -6,8 +6,8 @@ import (
 	elbv2sdk "github.com/aws/aws-sdk-go/service/elbv2"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"
-	"sigs.k8s.io/aws-load-balancer-controller/test/framework"
-	"sigs.k8s.io/aws-load-balancer-controller/test/framework/utils"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/test/framework"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/test/framework/utils"
 	"sort"
 	"strconv"
 )

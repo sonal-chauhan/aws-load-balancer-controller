@@ -8,7 +8,7 @@ import (
 	"github.com/pkg/errors"
 	"k8s.io/apimachinery/pkg/util/cache"
 	"k8s.io/apimachinery/pkg/util/sets"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/aws/services"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/aws/services"
 	"sync"
 	"time"
 )

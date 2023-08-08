@@ -20,12 +20,12 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/util/strategicpatch"
-	elbv2api "sigs.k8s.io/aws-load-balancer-controller/apis/elbv2/v1beta1"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/aws/services"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/backend"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/k8s"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/networking"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/runtime"
+	elbv2api "github.com/sonal-chauhan/aws-load-balancer-controller/apis/elbv2/v1beta1"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/aws/services"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/backend"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/k8s"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/networking"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )
 

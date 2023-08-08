@@ -15,9 +15,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	clientgoscheme "k8s.io/client-go/kubernetes/scheme"
-	elbv2api "sigs.k8s.io/aws-load-balancer-controller/apis/elbv2/v1beta1"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/equality"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/webhook"
+	elbv2api "github.com/sonal-chauhan/aws-load-balancer-controller/apis/elbv2/v1beta1"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/equality"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/webhook"
 	testclient "sigs.k8s.io/controller-runtime/pkg/client/fake"
 	"sigs.k8s.io/controller-runtime/pkg/webhook/admission"
 )

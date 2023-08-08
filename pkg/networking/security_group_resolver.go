@@ -7,7 +7,7 @@ import (
 	awssdk "github.com/aws/aws-sdk-go/aws"
 	ec2sdk "github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/pkg/errors"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/aws/services"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/aws/services"
 )
 
 // SecurityGroupResolver is responsible for resolving the frontend security groups from the names or IDs

@@ -9,8 +9,8 @@ import (
 	"github.com/pkg/errors"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/sets"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/annotations"
-	elbv2model "sigs.k8s.io/aws-load-balancer-controller/pkg/model/elbv2"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/annotations"
+	elbv2model "github.com/sonal-chauhan/aws-load-balancer-controller/pkg/model/elbv2"
 )
 
 func (t *defaultModelBuildTask) buildListeners(ctx context.Context, scheme elbv2model.LoadBalancerScheme) error {

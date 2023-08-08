@@ -6,8 +6,8 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/annotations"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/config"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/annotations"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/config"
 	"testing"
 	"time"
 )

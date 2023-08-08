@@ -8,10 +8,10 @@ import (
 
 	"github.com/pkg/errors"
 	networking "k8s.io/api/networking/v1"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/algorithm"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/k8s"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/model/core"
-	elbv2model "sigs.k8s.io/aws-load-balancer-controller/pkg/model/elbv2"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/algorithm"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/k8s"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/model/core"
+	elbv2model "github.com/sonal-chauhan/aws-load-balancer-controller/pkg/model/elbv2"
 )
 
 func (t *defaultModelBuildTask) buildListenerRules(ctx context.Context, lsARN core.StringToken, port int64, protocol elbv2model.Protocol, ingList []ClassifiedIngress) error {

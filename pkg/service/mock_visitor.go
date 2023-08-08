@@ -1,6 +1,6 @@
 package service
 
-import "sigs.k8s.io/aws-load-balancer-controller/pkg/model/core"
+import "github.com/sonal-chauhan/aws-load-balancer-controller/pkg/model/core"
 
 type resourceVisitor struct {
 	resources []core.Resource

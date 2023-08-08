@@ -6,7 +6,7 @@ import (
 	"github.com/go-logr/logr"
 	"github.com/pkg/errors"
 	"k8s.io/apimachinery/pkg/util/uuid"
-	"sigs.k8s.io/aws-load-balancer-controller/test/framework/helm"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/test/framework/helm"
 )
 
 // InstallationManager is responsible for manage controller installation in cluster.

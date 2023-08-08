@@ -15,11 +15,11 @@ import (
 	networking "k8s.io/api/networking/v1"
 	apierrs "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/k8s"
-	"sigs.k8s.io/aws-load-balancer-controller/test/framework"
-	"sigs.k8s.io/aws-load-balancer-controller/test/framework/fixture"
-	"sigs.k8s.io/aws-load-balancer-controller/test/framework/manifest"
-	"sigs.k8s.io/aws-load-balancer-controller/test/framework/utils"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/k8s"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/test/framework"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/test/framework/fixture"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/test/framework/manifest"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/test/framework/utils"
 )
 
 var _ = Describe("vanilla ingress tests", func() {

@@ -4,14 +4,14 @@ import (
 	"context"
 	"k8s.io/apimachinery/pkg/types"
 	"reflect"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/k8s"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/k8s"
 	"testing"
 
 	"github.com/go-logr/logr"
 	corev1 "k8s.io/api/core/v1"
 	networking "k8s.io/api/networking/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	mock_client "sigs.k8s.io/aws-load-balancer-controller/mocks/controller-runtime/client"
+	mock_client "github.com/sonal-chauhan/aws-load-balancer-controller/mocks/controller-runtime/client"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
 	awssdk "github.com/aws/aws-sdk-go/aws"
@@ -20,7 +20,7 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/aws/services"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/aws/services"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 )
 

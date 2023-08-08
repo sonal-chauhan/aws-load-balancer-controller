@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	elbv2api "sigs.k8s.io/aws-load-balancer-controller/apis/elbv2/v1beta1"
+	elbv2api "github.com/sonal-chauhan/aws-load-balancer-controller/apis/elbv2/v1beta1"
 )
 
 func Test_ingressClassParamsValidator_ValidateCreate(t *testing.T) {

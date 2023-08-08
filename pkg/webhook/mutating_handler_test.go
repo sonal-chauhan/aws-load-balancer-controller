@@ -13,7 +13,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	clientgoscheme "k8s.io/client-go/kubernetes/scheme"
 	"net/http"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/algorithm"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/algorithm"
 	"sigs.k8s.io/controller-runtime/pkg/webhook/admission"
 	"testing"
 )

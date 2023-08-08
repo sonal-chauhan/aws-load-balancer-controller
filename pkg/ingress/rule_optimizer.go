@@ -6,7 +6,7 @@ import (
 	awssdk "github.com/aws/aws-sdk-go/aws"
 	"github.com/go-logr/logr"
 	"k8s.io/apimachinery/pkg/util/sets"
-	elbv2model "sigs.k8s.io/aws-load-balancer-controller/pkg/model/elbv2"
+	elbv2model "github.com/sonal-chauhan/aws-load-balancer-controller/pkg/model/elbv2"
 )
 
 type Rule struct {

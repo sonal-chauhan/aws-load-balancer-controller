@@ -9,7 +9,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	clientgoscheme "k8s.io/client-go/kubernetes/scheme"
-	elbv2model "sigs.k8s.io/aws-load-balancer-controller/pkg/model/elbv2"
+	elbv2model "github.com/sonal-chauhan/aws-load-balancer-controller/pkg/model/elbv2"
 	testclient "sigs.k8s.io/controller-runtime/pkg/client/fake"
 	"testing"
 )

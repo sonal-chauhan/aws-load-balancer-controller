@@ -6,9 +6,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"k8s.io/apimachinery/pkg/util/intstr"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/config"
-	coremodel "sigs.k8s.io/aws-load-balancer-controller/pkg/model/core"
-	elbv2model "sigs.k8s.io/aws-load-balancer-controller/pkg/model/elbv2"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/config"
+	coremodel "github.com/sonal-chauhan/aws-load-balancer-controller/pkg/model/core"
+	elbv2model "github.com/sonal-chauhan/aws-load-balancer-controller/pkg/model/elbv2"
 	"testing"
 )
 

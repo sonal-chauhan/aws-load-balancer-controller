@@ -5,9 +5,9 @@ import (
 	"fmt"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/algorithm"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/k8s"
-	"sigs.k8s.io/aws-load-balancer-controller/test/framework"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/algorithm"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/k8s"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/test/framework"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"strconv"
 )

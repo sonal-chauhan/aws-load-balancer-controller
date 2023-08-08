@@ -8,8 +8,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/validation/field"
-	elbv2api "sigs.k8s.io/aws-load-balancer-controller/apis/elbv2/v1beta1"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/webhook"
+	elbv2api "github.com/sonal-chauhan/aws-load-balancer-controller/apis/elbv2/v1beta1"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/webhook"
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/webhook/admission"
 )

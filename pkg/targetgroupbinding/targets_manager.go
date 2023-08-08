@@ -6,7 +6,7 @@ import (
 	elbv2sdk "github.com/aws/aws-sdk-go/service/elbv2"
 	"github.com/go-logr/logr"
 	"k8s.io/apimachinery/pkg/util/cache"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/aws/services"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/aws/services"
 	"sync"
 	"time"
 )

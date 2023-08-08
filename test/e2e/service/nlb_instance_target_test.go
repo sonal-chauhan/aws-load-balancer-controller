@@ -9,8 +9,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	corev1 "k8s.io/api/core/v1"
-	"sigs.k8s.io/aws-load-balancer-controller/test/framework/http"
-	"sigs.k8s.io/aws-load-balancer-controller/test/framework/utils"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/test/framework/http"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/test/framework/utils"
 )
 
 var _ = Describe("test k8s service reconciled by the aws load balancer controller", func() {

@@ -9,9 +9,9 @@ import (
 	"github.com/go-logr/logr"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/aws/services"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/config"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/deploy/tracking"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/aws/services"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/config"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/deploy/tracking"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 )
 

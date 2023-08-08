@@ -10,7 +10,7 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/aws/services"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/aws/services"
 )
 
 func Test_defaultSecurityGroupResolver_ResolveViaNameOrID(t *testing.T) {

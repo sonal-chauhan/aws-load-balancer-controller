@@ -9,10 +9,10 @@ import (
 	"github.com/go-logr/logr"
 	"github.com/pkg/errors"
 	"k8s.io/apimachinery/pkg/util/sets"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/aws/services"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/deploy/tracking"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/model/core"
-	elbv2model "sigs.k8s.io/aws-load-balancer-controller/pkg/model/elbv2"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/aws/services"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/deploy/tracking"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/model/core"
+	elbv2model "github.com/sonal-chauhan/aws-load-balancer-controller/pkg/model/elbv2"
 )
 
 const (

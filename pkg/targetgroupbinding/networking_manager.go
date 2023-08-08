@@ -17,10 +17,10 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/intstr"
 	"k8s.io/apimachinery/pkg/util/sets"
-	elbv2api "sigs.k8s.io/aws-load-balancer-controller/apis/elbv2/v1beta1"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/backend"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/k8s"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/networking"
+	elbv2api "github.com/sonal-chauhan/aws-load-balancer-controller/apis/elbv2/v1beta1"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/backend"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/k8s"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/networking"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )
 

@@ -9,7 +9,7 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
-	"sigs.k8s.io/aws-load-balancer-controller/test/framework/utils"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/test/framework/utils"
 )
 
 var _ = Describe("k8s service reconciled by the aws load balancer", func() {

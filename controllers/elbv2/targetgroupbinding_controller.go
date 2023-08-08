@@ -27,11 +27,11 @@ import (
 	discv1 "k8s.io/api/discovery/v1"
 	"k8s.io/client-go/tools/record"
 	"k8s.io/client-go/util/workqueue"
-	"sigs.k8s.io/aws-load-balancer-controller/controllers/elbv2/eventhandlers"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/config"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/k8s"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/runtime"
-	"sigs.k8s.io/aws-load-balancer-controller/pkg/targetgroupbinding"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/controllers/elbv2/eventhandlers"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/config"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/k8s"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/runtime"
+	"github.com/sonal-chauhan/aws-load-balancer-controller/pkg/targetgroupbinding"
 	"sigs.k8s.io/controller-runtime/pkg/controller"
 	"sigs.k8s.io/controller-runtime/pkg/source"
 
@@ -39,7 +39,7 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	elbv2api "sigs.k8s.io/aws-load-balancer-controller/apis/elbv2/v1beta1"
+	elbv2api "github.com/sonal-chauhan/aws-load-balancer-controller/apis/elbv2/v1beta1"
 )
 
 const (
