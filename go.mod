@@ -1,4 +1,4 @@
-module github.com/sonal-chauhan/aws-load-balancer-controller/v2
+module github.com/sonal-chauhan/aws-load-balancer-controller
 
 go 1.20
 
